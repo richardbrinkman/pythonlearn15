@@ -15,10 +15,6 @@ INSERT INTO Users (name, email) VALUES ('Sally', 'a1@umich.edu');
 INSERT INTO Users (name, email) VALUES ('Ted', 'ted@umich.edu');
 INSERT INTO Users (name, email) VALUES ('Kristen', 'kf@umich.edu');
 
-DELETE FROM Users WHERE email='ted@umich.edu';
-
-UPDATE Users SET name="Charles" WHERE email='csev@umich.edu';
-
 -- Multi-Table SQL:
 
 CREATE TABLE "Artist" (
