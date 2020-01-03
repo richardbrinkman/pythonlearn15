@@ -2,4 +2,4 @@
 
 rm -f example.db
 sqlite3 example.db < example.sql
-jupyter-lab
+jupyter notebook
